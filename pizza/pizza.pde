@@ -15,6 +15,6 @@ ellipse(300,200,300,300);
                 image(  pineprick, 130, 100);
    PImage caned = loadImage("canedbacan.gif");        
                 caned.resize(240,240);
-                image(caned, 200, 130);
+                image(caned, 200, 100);
 }
 }
