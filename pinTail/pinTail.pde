@@ -20,11 +20,12 @@ void draw() {
   } else {
     background(255);
   }
-  if (mousePressed) {
+  if (mousePressed && tailX==0) {
     println(mouseX, mouseY);
     tailX = mouseX;
     tailY = mouseY;
-  }
+ 
+}
   if (tailX>0) {
     background(donkey);
     image(tail, tailX, tailY);
